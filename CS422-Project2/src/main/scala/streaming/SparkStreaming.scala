@@ -66,8 +66,10 @@ class SparkStreaming(sparkConf: SparkConf, args: Array[String]) {
 
     if (execType.contains("precise")) {
       //TODO : Implement precise calculation
+
     } else if (execType.contains("approx")) {
       //TODO : Implement approx calculation (you will have to implement the CM-sketch as well
+
     }
 
     // Start the computation
